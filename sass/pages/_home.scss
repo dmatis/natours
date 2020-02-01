@@ -1,0 +1,8 @@
+.section-about {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0;
+    // This value was computed from the polygon in the header where it takes up 95% of vh.
+    // But the bottom right corner only goes to 75vh so we take the difference (95 - 75)
+    // and shift the About section up 20vh.
+    margin-top: -20vh;
+}

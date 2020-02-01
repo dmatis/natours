@@ -1,0 +1,8 @@
+// appends a pseudo-element after an element and clears the floats to ensure we have height again
+@mixin clearfix {
+    &::after {
+        content: ""; // required to actually display the clearfix element
+        display: table;
+        clear: both; // clears float left and float right
+    }
+}

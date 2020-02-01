@@ -1,7 +1,8 @@
 # Natours
 
 This site was created as part of the [Advanced CSS and Sass Course](https://www.udemy.com/course/advanced-css-and-sass) on Udemy.
-![Natours Screenshot](img/natours-screenshot.png)
+![Header Screenshot](img/natours-header-screenshot.png)
+![About Screenshot](img/natours-about-screenshot.png)
 
 ## Key Features
 
@@ -12,6 +13,7 @@ This site was created as part of the [Advanced CSS and Sass Course](https://www.
 ### Responsive
 
 -   Fonts are all rem based
+-   Image widths are %-based for multiple devices
 
 ### Dynamic
 
