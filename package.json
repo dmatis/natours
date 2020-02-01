@@ -1,0 +1,25 @@
+{
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "Landing page for natours",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dmatis/natours.git"
+    },
+    "author": "Darren Matis",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dmatis/natours/issues"
+    },
+    "homepage": "https://github.com/dmatis/natours#readme",
+    "dependencies": {
+        "live-server": "^1.2.1"
+    },
+    "devDependencies": {
+        "node-sass": "^4.13.1"
+    }
+}

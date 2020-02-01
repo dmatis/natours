@@ -5,6 +5,10 @@ This site was created as part of the [Advanced CSS and Sass Course](https://www.
 
 ## Key Features
 
+### Modular
+
+-   Implements the [7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern) in Sass
+
 ### Responsive
 
 -   Fonts are all rem based
