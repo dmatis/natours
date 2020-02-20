@@ -49,11 +49,7 @@
     }
 
     &__list {
-        // TODO: Create a center-horizontal mixin for these 4 lines
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        @include absCenter;
         list-style: none;
         text-align: center;
         width: 100%;
