@@ -9,6 +9,16 @@
     font-size: $default-font-size;
     transform: skewX(-12deg);
 
+    @include respond(tab-port) {
+        width: 100%;
+        padding: 4rem;
+        padding-left: 7rem;
+    }
+
+    @include respond(phone) {
+        transform: skewX(0);
+    }
+
     &__shape {
         // shape-outside determines how content (like text) should wrap around it.
         // It requires width, height, and float properties to function correctly.
@@ -21,6 +31,10 @@
         // because the element is floated
         transform: translateX(-3rem) skewX(12deg);
         position: relative;
+
+        @include respond(phone) {
+            transform: translateX(-3rem) skewX(0);
+        }
     }
 
     &__img {
@@ -35,6 +49,10 @@
         // We have to apply this property to __text and __shape independently
         // vs using & > * selector because __shape already has a defined transform property
         transform: skewX(12deg);
+
+        @include respond(phone) {
+            transform: skewX(0);
+        }
     }
 
     &__caption {
