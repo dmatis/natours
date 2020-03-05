@@ -18,6 +18,8 @@ https://dmatis.github.io/natours
 
 -   Fonts are all rem based
 -   Image widths are %-based for multiple devices
+-   Media queries for ideal viewing on all devices
+-   Responsive images - density switching, art direction, resolution switching
 
 ### Dynamic
 
